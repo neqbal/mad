@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView stateText;
 
     private void updateState(String state){
-        stateText.setText(state);
+        stateText.append(state + "\n");
         Log.d(TAG, state);
     }
 

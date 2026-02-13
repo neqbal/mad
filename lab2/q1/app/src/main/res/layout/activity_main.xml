@@ -12,7 +12,7 @@
         android:id="@+id/stateText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lifecycle State"
+        android:text=""
         android:textSize="22sp"
         android:padding="16dp"/>
 
