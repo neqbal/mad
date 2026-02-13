@@ -18,9 +18,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Prevent layout from hiding under notification panel
-        getWindow().setDecorFitsSystemWindows(true);
-
         setContentView(R.layout.activity_main);
 
         toggleButton = findViewById(R.id.toggleMode);

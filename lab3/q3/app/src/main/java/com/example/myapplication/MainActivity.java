@@ -19,9 +19,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Prevent content from hiding under notification bar
-        getWindow().setDecorFitsSystemWindows(true);
-
         setContentView(R.layout.activity_main);
 
         tabLayout = findViewById(R.id.tabLayout);

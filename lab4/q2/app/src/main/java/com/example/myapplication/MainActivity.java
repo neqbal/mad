@@ -16,9 +16,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        // Prevent content hiding under notification panel
-        getWindow().setDecorFitsSystemWindows(true);
-
         setContentView(R.layout.activity_main);
 
         Button cupcake = findViewById(R.id.btnCupcake);
