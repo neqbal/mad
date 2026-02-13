@@ -1,0 +1,26 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:stretchColumns="*"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TableRow>
+        <TextView android:text="ID"/>
+        <TextView android:text="Name"/>
+        <TextView android:text="Dept"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="1"/>
+        <TextView android:text="John"/>
+        <TextView android:text="CSE"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="2"/>
+        <TextView android:text="Anna"/>
+        <TextView android:text="IT"/>
+    </TableRow>
+
+</TableLayout>
