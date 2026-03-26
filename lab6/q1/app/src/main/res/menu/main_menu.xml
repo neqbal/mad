@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Text-based menu -->
+    <item
+        android:id="@+id/workout"
+        android:title="Workout Plans"/>
+
+    <item
+        android:id="@+id/trainers"
+        android:title="Trainers"/>
+
+    <item
+        android:id="@+id/membership"
+        android:title="Membership"/>
+
+    <!-- Icon-based menu -->
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_about"
+        android:title="About"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_contact"
+        android:title="Contact"
+        android:showAsAction="always"/>
+
+</menu>
