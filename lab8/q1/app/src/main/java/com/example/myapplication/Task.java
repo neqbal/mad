@@ -1,0 +1,27 @@
+package com.example.myapplication;
+
+public class Task {
+    private int id;
+    private String name;
+    private String dueDate;
+    private String priority;
+
+    public Task() {}
+
+    public Task(int id, String name, String dueDate, String priority) {
+        this.id = id;
+        this.name = name;
+        this.dueDate = dueDate;
+        this.priority = priority;
+    }
+
+    public int getId() { return id; }
+    public String getName() { return name; }
+    public String getDueDate() { return dueDate; }
+    public String getPriority() { return priority; }
+
+    public void setId(int id) { this.id = id; }
+    public void setName(String name) { this.name = name; }
+    public void setDueDate(String dueDate) { this.dueDate = dueDate; }
+    public void setPriority(String priority) { this.priority = priority; }
+}

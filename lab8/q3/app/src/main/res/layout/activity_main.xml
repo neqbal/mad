@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etName"
+        android:hint="Movie Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etYear"
+        android:hint="Year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/spRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:text="Save Review"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_height="150dp"
+        android:layout_width="match_parent"/>
+
+    <!-- TABLE LAYOUT -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:paddingTop="10dp">
+
+        <TableRow>
+            <TextView android:text="Name"/>
+            <TextView android:text="Year"/>
+            <TextView android:text="Rating"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:id="@+id/tvName"/>
+            <TextView android:id="@+id/tvYear"/>
+            <TextView android:id="@+id/tvRating"/>
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
