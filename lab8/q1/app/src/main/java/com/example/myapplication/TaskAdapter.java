@@ -4,6 +4,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.view.*;
 import android.widget.*;
+
+import androidx.annotation.NonNull;
+
 import java.util.*;
 
 public class TaskAdapter extends ArrayAdapter<Task> {
@@ -19,6 +22,7 @@ public class TaskAdapter extends ArrayAdapter<Task> {
         db = new DatabaseHelper(context);
     }
 
+    @NonNull
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         Task t = list.get(position);
